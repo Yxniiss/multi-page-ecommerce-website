@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inscription TechHub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-special">
+  <header>
+    <a href="/index.html" class="logo">
+      <img src="/image/télécharger.png" alt="Logo" />
+      <span>TechHub</span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="/connexion.html">Connexion</a></li>
+        <li><a href="/inscription.html">Inscription</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inscription">
+    <h2>Inscription</h2>
+    <form class="register-form" onsubmit="showRegistrationMessage(event)">
+      <div class="form-group">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
+      </div>
+      <div class="form-group">
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Adresse Email :</label>
+        <input type="email" id="email" name="email" placeholder="Votre email" required />
+      </div>
+      <div class="form-group">
+        <label for="password">Mot de Passe :</label>
+        <input type="password" id="password" name="password" placeholder="Votre mot de passe" required />
+      </div>
+      <div class="form-actions">
+        <button type="submit">S'inscrire</button>
+        <a href="/connexion.html" class="register-link">Déjà un compte ? Connectez-vous.</a>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <ul>
+      <li><b>Information légale</b></li>
+      <ul>
+        <li><a href="https://www.mahivajewelry.com/pages/politique-de-confidentialite">Conditions générales de vente |</a></li>
+        <li><a href="https://www.mahivajewelry.com/pages/politique-de-confidentialite">Politique de confidentialité |</a></li>
+        <li><a href="https://www.mahivajewelry.com/pages/retours-echanges-bijoux">Retour & Échange</a></li>
+      </ul>
+    </ul>
+  </footer>
+  <script src="/inscription.js"></script>
+</body>
+</html>

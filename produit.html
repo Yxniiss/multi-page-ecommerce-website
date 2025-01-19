@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produit TechHub</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <a href="/index.html" class="logo">
+            <img src="/image/télécharger.png" alt="Logo" />
+            <span>TechHub</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="/catalogue.html">Catalogue</a></li>
+                <li><a href="/panier.html"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                </svg><span  id="cart-count" class="cart-count">0</span></a></li>
+                <li><a href="/connexion.html">Connexion</a></li>
+                <li><a href="/inscription.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-container">
+        <div class="product-image">
+            <img src="https://m.media-amazon.com/images/I/81GQLns3lnL._AC_UL480_FMwebp_QL65_.jpg" alt="CyberPowerPC Gamer Xtreme VR Gaming PC">
+        </div>
+
+        <div class="product-info">
+            <h1>CyberPowerPC Gamer Xtreme VR Gaming PC</h1>
+            <p>Description : <br><br>- USystem: Intel Core i5-13400F 2.5GHz 6+4 Cores | Intel B760 Chipset | 16GB DDR5 | 1TB PCIe Gen4 NVMe SSD | Windows 11 Home 64-bit<br><br>
+              - Graphics: NVIDIA GeForce RTX 4060 8GB Graphics | 1x HDMI | 2x DisplayPort<br><br>
+              - Connectivity: 5 x USB 3.1 | 4 x USB 2.0 | 1 x LAN 1G | WiFi 5 | Bluetooth 4.2 | 7.1 Channel Audio | Keyboard and Mouse<br><br>
+              - Tempered Side Case Panel | Custom RGB Lighting<br><br>
+              - 1 Year Parts & Labor Warranty, Free Lifetime Tech Support.</p>
+            <p class="price">Prix : 1259.68€</p>
+            <button id="add-to-cart-btn" data-id="1" data-name="CyberPowerPC Gamer Xtreme VR Gaming PC" data-price="1259.68€">
+                Ajouter au panier
+            </button>
+        </div>
+    </section>
+
+    <section id="avis"> 
+
+      <div class="avis1">
+          <h5>CLARA M.</h5>
+          <p> "Cette tour est exceptionnelle ! Elle combine puissance et fiabilité, idéale pour des sessions de gaming intensives. Sa conception robuste garantit une excellente durabilité, et son design élégant complète parfaitement mon espace. Je suis ravi de cet achat et le recommande à tous les gamers à la recherche d’un matériel performant et esthétique !"
+          </p>
+
+          <b><p>⭐⭐⭐⭐⭐</p></b>
+
+      </div>
+
+      <div class="avis2">
+          <h5>MARC D.</h5>
+          <p> "Cette tour est exceptionnelle ! Elle combine puissance et fiabilité, idéale pour des sessions de gaming intensives. Sa conception robuste garantit une excellente durabilité, et son design élégant complète parfaitement mon espace. Je suis ravi de cet achat et le recommande à tous les gamers à la recherche d’un matériel performant et esthétique !"</p>
+          <b><p>⭐⭐⭐⭐✰.</p></b>
+      </div>
+
+      <div class="avis3">
+          <h5>SOPHIE L. </h5>
+          <p> "Je suis vraiment satisfait de cette tour ! Elle est durable, bien ventilée et garde les composants au frais même lors des sessions de gaming les plus intenses.
+            J'adore le fait qu'elle soit antidérapante grâce à ses pieds stables, ce qui évite qu'elle bouge, même sur une surface glissante.
+            C'est un investissement qui vaut vraiment le coup pour tout gamer à la recherche de performance et de fiabilité." 
+          </p>
+          <b><p>⭐⭐⭐⭐⭐</p></b>
+      </div>
+  </section>
+
+    <footer>
+        <ul>
+            <li><b>Informations légales</b></li>
+            <ul>
+                <li><a href="/conditions">Conditions générales de vente</a></li>
+                <li><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>
+                <li><a href="/retours">Retour & Échange</a></li>
+            </ul>
+        </ul>
+    </footer>
+    <script src="/produit.js"></script>
+</body>
+</html>

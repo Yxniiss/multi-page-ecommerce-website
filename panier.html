@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Panier TechHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="/index.html" class="logo">
+            <img src="/image/télécharger.png" alt="Logo" />
+            <span>TechHub</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="/catalogue.html">Catalogue</a></li>
+                <li>
+                  <a href="/panier.html">
+                      <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                      </svg>
+                      <span id="cart-count" class="cart-count">0</span>
+                  </a>
+              </li>
+              
+                <li><a href="/connexion.html">Connexion</a></li>
+                <li><a href="/inscription.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="panier">
+        <h2>Mon Panier</h2>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <p>Total :</p>
+            <span id="total-price">0€</span>
+        </div>
+        <button class="checkout-btn">Passer à la caisse</button>
+    </section>
+
+    <footer>
+        <ul>
+            <li><b>Informations légales</b></li>
+            <ul>
+                <li><a href="/conditions">Conditions générales de vente</a></li>
+                <li><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>
+                <li><a href="/retours">Retour & Échange</a></li>
+            </ul>
+        </ul>
+    </footer>
+    <script src="/panier.js"></script>
+</body>
+</html>
